@@ -1,5 +1,5 @@
 function healthStatus({ health }) {
-  let status = 0;
+  let status;
   if (health > 50) {
     status = 'healthy';
   } else if (health <= 50 && health >= 15) {
